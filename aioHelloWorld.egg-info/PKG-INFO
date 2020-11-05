@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: aioHelloWorld
+Version: 0.2
+Summary: This is a asynchronous package for printing hello world
+Home-page: UNKNOWN
+Author: Exainz
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: This is for those who are getting started with asynchronous python and want to print their dream programme hello world
+Platform: UNKNOWN
