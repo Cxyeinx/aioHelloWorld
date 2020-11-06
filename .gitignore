@@ -1,0 +1,4 @@
+.idea
+aioHelloWorld.egg-info
+__pycache__
+build/lib/aioHelloWorld
