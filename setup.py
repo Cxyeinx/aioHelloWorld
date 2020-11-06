@@ -1,10 +1,15 @@
 from setuptools import setup
 
 
+with open("README.md", "r") as read:
+      readme = read.read()
+
 setup(name="aioHelloWorld",
-      version="0.02",
+      version="0.3e",
       description="This is a asynchronous package for printing hello world",
-      long_description="This is for those who are getting started with asynchronous python and want to print their dream programme hello world",
+      long_description=readme,
+      long_description_content_type = "text/markdown",
+      project_urls={"Issue tracker": "https://github.com/Exainz/aioHelloWorld/issues"},
       author="Exainz",
       packages=["aioHelloWorld"],
       install_requires=[])
